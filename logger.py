@@ -1,0 +1,22 @@
+import logging
+import os
+
+os.makedirs("logs", exist_ok=True)
+
+logging.basicConfig(
+    filename=logging.basicConfig(
+    filename="logs/eventos.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    encoding="utf-8"
+),
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+def registrar_evento(mensaje):
+    logging.info(mensaje)
+
+def registrar_error(error):
+    logging.error(error)
+    
