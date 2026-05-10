@@ -3,6 +3,6 @@
 Proyecto de programación orientada a objetos desarrollado en Python.
 
 Integrantes:
-- Nombre 1
-- Nombre 2
+- Liliana Rocio Nuñez Rodriguez
+- Diego orlando Nuñez Rodriguez
 - Nombre 3
