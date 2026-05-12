@@ -8,6 +8,7 @@ from servicios.asesoria import Asesoria
 
 
 print("=== SISTEMA SOFTWARE FJ ===")
+print("LOG: Inicio correcto del sistema")
 
 
 try:
@@ -25,6 +26,7 @@ try:
     total = reserva1.procesar()
 
     print("Reserva exitosa")
+    print("LOG: Reserva registrada correctamente")
     print("Costo:", total)
 
     registrar_evento("Reserva realizada")
@@ -60,4 +62,3 @@ except Exception as e:
 
 finally:
     print("Sistema finalizado correctamente")
-    
